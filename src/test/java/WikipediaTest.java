@@ -21,7 +21,7 @@ public class WikipediaTest {
         });
 
         step("Шаг 02 - Проверить текст на странице", () -> {
-            $("body").shouldHave(text("Wikipedia"));
+            $("body").shouldHave(text("Wikipedia!!!!!!!"));
         });
     }
 }
